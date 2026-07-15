@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  font-family: "Times New Roman", Times, serif;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
 
 .sprite:hover {
     animation: hop 300ms infinite;
