@@ -11,7 +11,7 @@ type AllPostsData = {
 }[]
 
 // Change this url to change the image!
-const imageUrl = 'images/I/71HX-3aQf2L._AC_UF894,1000_QL80_.jpg';
+const imageUrl = '/img/pokedex/full/612.png';
 
 export default function Home() {
   const allPostsData: AllPostsData = getSortedPostsData()
