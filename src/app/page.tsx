@@ -11,13 +11,13 @@ type AllPostsData = {
 }[]
 
 // Change this url to change the image!
-const imageUrl = '/images/snorlax.jpg';
+const imageUrl = 'images/I/71HX-3aQf2L._AC_UF894,1000_QL80_.jpg';
 
 export default function Home() {
   const allPostsData: AllPostsData = getSortedPostsData()
 
   return (
-      <div>
+      <div style={{ fontFamily: '"Times New Roman", Times, serif' }}>
         <section>
           <p className={'prose'}>
             Hey I&apos;m Jesse. This is my site.
